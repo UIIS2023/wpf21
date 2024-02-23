@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Forme\frmGost.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forme\frmJelo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forme\frmKonobar.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forme\frmKuvar.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forme\frmMenadzer.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forme\frmPorudzbina.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forme\frmRezervacija.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forme\frmVrstaJelo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Forme\frmGost.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forme\frmJelo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forme\frmKonobar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forme\frmKuvar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forme\frmMenadzer.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forme\frmPorudzbina.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forme\frmRezervacija.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forme\frmVrstaJelo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

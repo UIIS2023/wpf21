@@ -1,0 +1,21 @@
+﻿<Window x:Class="Restoran.Forme.frmRezervacija"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Restoran.Forme"
+        mc:Ignorable="d"
+Title="Dodaj ili izmeni rezervaciju" Height="250" Width="350">
+    <Grid>
+        <Label Content="Datum:" HorizontalAlignment="Left" Margin="35,30,0,0" VerticalAlignment="Top"/>
+        <Label Content="Broj mesta:" HorizontalAlignment="Left" Margin="35,70,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="130,73,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="123" Height="26"/>
+        <Button x:Name="txtSacuvaj" Content="Sacuvaj" HorizontalAlignment="Left" Margin="90,190,0,0" VerticalAlignment="Top" Click="txtSacuvaj_Click"/>
+        <Button x:Name="txtOtkazi" Content="Otkazi" HorizontalAlignment="Left" Margin="212,190,0,0" VerticalAlignment="Top" Click="txtOtkazi_Click"/>
+        <DatePicker x:Name="dtDatum" HorizontalAlignment="Left" Margin="130,30,0,0" VerticalAlignment="Top" Width="123" Height="26"/>
+        <Label Content="Gost:" HorizontalAlignment="Left" Margin="35,110,0,0" VerticalAlignment="Top"/>
+        <Label Content="Menadzer:" HorizontalAlignment="Left" Margin="35,150,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cbGostt" HorizontalAlignment="Left" Margin="130,110,0,0" VerticalAlignment="Top" Width="120"/>
+         <ComboBox x:Name="cbMenadzer" HorizontalAlignment="Left" Margin="130,154,0,0" VerticalAlignment="Top" Width="120"/>
+    </Grid>
+</Window>

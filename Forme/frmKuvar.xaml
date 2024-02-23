@@ -1,0 +1,21 @@
+﻿<Window x:Class="Restoran.Forme.frmKuvar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Restoran.Forme"
+        mc:Ignorable="d"
+        Title="Dodaj ili izmeni kuvara" Height="250" Width="350">
+    <Grid>
+        <Label Content="Ime kuvara:" HorizontalAlignment="Left" Margin="35,30,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtImeKuvara" HorizontalAlignment="Left" Margin="150,30,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="123" Height="26"/>
+        <Button x:Name="txtSacuvaj" Content="Sacuvaj" HorizontalAlignment="Left" Margin="90,190,0,0" VerticalAlignment="Top" Click="txtSacuvaj_Click"/>
+        <Button x:Name="txtOtkazi" Content="Otkazi" HorizontalAlignment="Left" Margin="212,190,0,0" VerticalAlignment="Top" Click="txtOtkazi_Click"/>
+        <Label Content="Prezime kuvara:" HorizontalAlignment="Left" Margin="35,70,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtPrezimeKuvara" HorizontalAlignment="Left" Margin="150,72,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="123" Height="26"/>
+        <Label Content="Kontakt kuvara:" HorizontalAlignment="Left" Margin="35,110,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtKontaktKuvara" HorizontalAlignment="Left" Margin="150,110,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="123" Height="26" />
+        <Label Content="Adresa kuvara:" HorizontalAlignment="Left" Margin="35,140,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtAdresaKuvara" HorizontalAlignment="Left" Margin="150,145,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="123" Height="26"/>
+    </Grid>
+</Window>

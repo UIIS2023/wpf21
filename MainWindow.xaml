@@ -1,0 +1,34 @@
+﻿<Window x:Class="Restoran.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Restoran"
+        mc:Ignorable="d"
+        Title="Restoran" Height="450" Width="850">
+    <Grid>
+        <DataGrid x:Name="dataGridCentralni" HorizontalAlignment="Center" VerticalAlignment="Center" Width="auto" Height="auto" 
+                  IsReadOnly="true" AlternatingRowBackground="Coral" 
+                  CanUserAddRows="False" SelectionMode="Single" SelectionUnit="FullRow"/>
+        <StackPanel HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" 
+                    Width="auto" Orientation="Horizontal">
+            <Button x:Name="btnKonobari" Content="Konobari" HorizontalAlignment="Left" Margin="50,1,0,0" VerticalAlignment="Top" Click="btnKonobari_Click"/>
+                <Button x:Name="btnMenadzeri" Content="Menadzeri" HorizontalAlignment="Left" Margin="50,1,0,0" VerticalAlignment="Top" Click="btnMenadzeri_Click"/>
+            <Button x:Name="btnKuvari" Content="Kuvari" HorizontalAlignment="Left" Margin="50,1,0,0" VerticalAlignment="Top" Click="btnKuvari_Click"/>
+            <Button x:Name="btnGosti" Content="Gosti" HorizontalAlignment="Left" Margin="50,1,0,0" VerticalAlignment="Top" Click="btnGosti_Click"/>
+            <Button x:Name="btnRezervacije" Content="Rezervacije" HorizontalAlignment="Left" Margin="50,1,0,0" VerticalAlignment="Top" Click="btnRezervacije_Click"/>
+            <Button x:Name="btnPorudzbine" Content="Porudzbine" HorizontalAlignment="Left" Margin="50,1,0,0" VerticalAlignment="Top" Click="btnPorudzbine_Click"/>
+            <Button x:Name="btnVrsteJela" Content="Vrste jela" HorizontalAlignment="Left" Margin="50,1,0,0" VerticalAlignment="Top" Click="btnVrsteJela_Click"/>
+            <Button x:Name="btnJelo" Content="Jelo" HorizontalAlignment="Left" Margin="50,1,0,0" VerticalAlignment="Top" Click="btnJelo_Click"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Center" Height="30" VerticalAlignment="Bottom" 
+                    Width="auto" Orientation="Horizontal">
+        
+            </StackPanel>
+        <Button x:Name="btnDodaj" Content="Dodaj"  Height="30" Width="75" Margin="200,404,575,0" Click="btnDodaj_Click"/>
+        <Button x:Name="btnIzmeni" Content="Izmeni" Height="30" Width="75" Margin="388,404,387,0"/>
+        <Button x:Name="btnObrisi" Content="Obrisi" Height="30" Width="75" Margin="568,404,207,0" />
+
+
+    </Grid>
+</Window>
