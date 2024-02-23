@@ -100,7 +100,7 @@ jobs:
         run: dotnet-sonarscanner begin /k:"UIIS2023_wpf21" /o:"uiis2023" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
         shell: powershell
 
-      - name: Build the project
+      - name: Build the project 
         run: msbuild /t:Rebuild /p:Configuration=Release Restoran.sln
         shell: powershell
 
